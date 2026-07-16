@@ -1,6 +1,9 @@
 📚 Cursos
+
 Bem-vindo ao meu repositório de estudos!
+
 Este projeto reúne todos os materiais desenvolvidos durante minha jornada de aprendizado, organizando cursos, exercícios, projetos, certificados e trilhas de conhecimento em um único lugar.
+
 Aqui você encontrará conteúdos produzidos ao longo de diversos cursos, desde fundamentos da computação até linguagens de programação e desenvolvimento web.
 
 ---
