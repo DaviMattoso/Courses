@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.cidade-principal{
+    width: 700px;
+    max-width: 90%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Container que agrupa todas as cidades */
+.destinos{
+
+    /* Ativa o Flexbox, permitindo organizar os elementos lado a lado */
+    display: flex;
+
+    /* Centraliza todas as colunas horizontalmente */
+    justify-content: center;
+
+    /* Espaço entre uma coluna e outra */
+    gap: 50px;
+
+    /* Espaço acima da seção */
+    margin-top: 25px;
+
+    /* Caso a tela seja pequena,
+       as colunas passam automaticamente para a linha de baixo */
+    flex-wrap: wrap;
+}
+
+/* Cada cidade será uma coluna independente */
+.cidade{
+
+    /* Também utiliza Flexbox */
+    display: flex;
+
+    /* Organiza os elementos na vertical,
+       deixando a imagem em cima e o texto abaixo */
+    flex-direction: column;
+
+    /* Centraliza todos os elementos da coluna */
+    align-items: center;
+}
+
+.cidade img{
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cidade img:hover{
+    transform: scale(1.05);
+}
+
+.cidade a{
+    text-decoration: none;
+    color: #1f4ea3;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
