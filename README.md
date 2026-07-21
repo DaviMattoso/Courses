@@ -1,8 +1,8 @@
-📚 Cursos
+📖 Cursos 📁
 
 Bem-vindo ao meu repositório de estudos!
 
-Este projeto reúne todos os materiais desenvolvidos durante minha jornada de aprendizado, organizando cursos, exercícios, projetos, certificados e trilhas de conhecimento em um único lugar.
+Este projeto reúne todos os materiais desenvolvidos durante minha jornada de aprendizado, organizando cursos, exercícios, projetos e trilhas de conhecimento em um único lugar.
 
 Aqui você encontrará conteúdos produzidos ao longo de diversos cursos, desde fundamentos da computação até linguagens de programação e desenvolvimento web.
 
@@ -15,7 +15,7 @@ Este repositório está dividido em duas grandes áreas:
 Cursos voltados ao desenvolvimento de conhecimentos complementares, fortalecendo a base da área de tecnologia.
 Nesta categoria você encontrará conteúdos como:
 
-- 💻 Computação e Redes
+- 💻 Computação
   - Hardware
   - Software
   - Protocolos
@@ -73,7 +73,6 @@ As trilhas normalmente incluem:
 - 📖 Material de estudo
 - 📝 Exercícios
 - 💻 Projetos práticos
-- 🏆 Certificados
 - 📓 Diário de desenvolvimento
 
 ---
@@ -86,7 +85,6 @@ Curso
 ├── 📖 Material
 ├── 📝 Exercícios
 ├── 💻 Projetos
-├── 🏆 Certificados
 ├── 📍 Trilha de Conhecimento
 └── README.md
 ```
