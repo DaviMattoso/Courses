@@ -1,6 +1,8 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 JavaScript
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+<br>
+<br>
 Depois de aprender a estruturar páginas com **HTML** e dar vida ao visual com **CSS**, chegou a hora de estudar a linguagem que realmente torna tudo interativo: o **JavaScript**.
 Este repositório reúne todo o meu material de estudo sobre JavaScript, desenvolvido de forma autodidata com base em cursos, documentação oficial, vídeos, artigos e comunidades como GitHub e Stack Overflow. Todo o conteúdo está em português e organizado da forma que faz mais sentido para o meu processo de aprendizado.
 
@@ -12,7 +14,6 @@ O material está organizado por módulos, contendo aulas, materiais em PDF e exe
 
 ```text
 JavaScript/
-├── Modulo 1/
 │   ├── Aula 1/
 │   │   ├── Material.pdf
 │   │   └── Exercicios/
@@ -20,8 +21,6 @@ JavaScript/
 │   │   ├── Material.pdf
 │   │   └── Exercicios/
 │   └── ...
-├── Modulo 2/
-└── ...
 ```
 
 Cada pasta contém:
