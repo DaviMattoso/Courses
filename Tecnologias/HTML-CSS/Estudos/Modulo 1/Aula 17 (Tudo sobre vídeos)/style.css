@@ -1,0 +1,39 @@
+/* Configurações gerais da página */
+body {
+    /* Centraliza os elementos */
+    text-align: center;
+    /* Espaçamento interno da página */
+    padding: 30px;
+}
+
+/* Configuração do título */
+h1 {
+    /* Espaço abaixo do título */
+    margin-bottom: 20px;
+}
+
+/* Configuração da imagem */
+img {
+    /* Faz a imagem ocupar sua própria linha */
+    display: block;
+    /* Centraliza a imagem */
+    margin: 0 auto 10px;
+    /* Arredonda os cantos */
+    border-radius: 8px;
+}
+
+/* Configuração dos textos */
+p {
+    /* Espaço acima e abaixo do texto */
+    margin: 10px 0;
+}
+
+/* Configuração dos vídeos */
+video {
+    /* Faz o vídeo ocupar sua própria linha */
+    display: block;
+    /* Centraliza o vídeo */
+    margin: 15px auto 30px;
+    /* Arredonda os cantos */
+    border-radius: 8px;
+}
