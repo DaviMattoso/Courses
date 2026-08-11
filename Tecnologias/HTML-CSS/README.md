@@ -1,7 +1,6 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML) Estudos_HTML_CSS [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-📚 Repositório de Estudos em HTML e CSS
-
+<br>
+<br>
 Este repositório reúne meus estudos sobre desenvolvimento web, com foco em HTML e CSS. Todo o material é autodidata, criado por mim com base em cursos, vídeos, comunidades como GitHub e Stack Overflow.
 O conteúdo está em português, facilitando meu aprendizado e organização pessoal.
 

@@ -1,7 +1,9 @@
-Estudos sobre Git e GitHub.
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) Estudos_Git_GitHub [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+<br>
+<br>
 Repositório destinado à organização dos meus estudos autodidatas sobre Git e GitHub. Aqui registro anotações, comandos importantes, boas práticas e testes práticos realizados ao longo do aprendizado.
 
-📚 Tópicos Abordados
+-> Tópicos Abordados
 - O que é Git e GitHub  
 - Instalação e uso do GitHub Desktop  
 - Clonagem e criação de repositórios  

@@ -1,6 +1,7 @@
-# Estudios-Universidad_C-Sharp
-
-📚 Repositorio de Estudios Universitarios y Complementarios en Programación
+[![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/pt-br/dotnet/csharp/) Estudios-Universidad_C-Sharp [![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+<br>
+<br>
+Repositorio de Estudios Universitarios y Complementarios en Programación
 
 Este repositorio recopila mis estudios relacionados con la programación, principalmente en los lenguajes C#, lógica (PSeInt) y temas de base de datos, realizados durante mi formación universitaria y mediante estudio autodidacta. Está dividido en dos secciones principales: Temas de la universidad y Complemento de temas sobre C#.
 
