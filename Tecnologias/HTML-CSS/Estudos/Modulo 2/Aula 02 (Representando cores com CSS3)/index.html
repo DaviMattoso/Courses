@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 22 - Degradê com CSS</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; color: white;">
+
+    <!-- TÍTULO PRINCIPAL -->
+    <div style="padding: 40px; text-align: center; background-color: #101A2B;">
+        <h1 style="margin: 0;">
+            Degradê com CSS
+        </h1>
+        <p style="font-size: 18px;">
+            Trabalhando com gradientes e fundos no CSS
+        </p>
+    </div>
+
+    <!-- MUDANDO A COR DO FUNDO -->
+    <section style="padding: 40px; background-color: #222;">
+        <h2>Mudando a cor do fundo da página</h2>
+
+        <p>
+            Antes de trabalhar com degradês, é importante entender que podemos
+            definir uma cor de fundo utilizando a propriedade
+            <strong>background-color</strong>.
+        </p>
+
+        <div style="background-color: #1976D2; padding: 30px; border-radius: 10px; text-align: center;">
+            <strong>background-color: #1976D2;</strong>
+        </div>
+    </section>
+
+    <!-- BACKGROUND-IMAGE -->
+    <section style="padding: 40px; background-color: #f4f4f4; color: #222;">
+        <h2>Usando background-image para degradê</h2>
+
+        <p>
+            Para criar um degradê, podemos utilizar a propriedade
+            <strong>background-image</strong>.
+        </p>
+
+        <div style="background-image: linear-gradient(red, blue); padding: 40px; border-radius: 10px; color: white; text-align: center;">
+            <strong>background-image: linear-gradient(red, blue);</strong>
+        </div>
+
+        <!--
+        OBSERVAÇÃO:
+
+        Apesar do nome background-image, não precisamos colocar
+        uma imagem de verdade.
+
+        O CSS consegue gerar o degradê através da função
+        linear-gradient().
+        -->
+    </section>
+
+    <!-- LINEAR GRADIENT -->
+    <section style="padding: 40px; background-color: #222;">
+        <h2>Usando linear-gradient()</h2>
+
+        <p>
+            O <strong>linear-gradient()</strong> cria uma transição de cores
+            seguindo uma direção.
+        </p>
+
+        <div style="background-image: linear-gradient(to right, #101A2B, #1976D2); padding: 40px; border-radius: 10px; text-align: center;">
+            <strong>linear-gradient(to right, #101A2B, #1976D2)</strong>
+        </div>
+
+        <!--
+        O "to right" indica que o degradê vai da esquerda
+        para a direita.
+
+        Também podemos utilizar:
+
+        to left
+        to top
+        to bottom
+        -->
+    </section>
+
+    <!-- CONFIGURAÇÕES GLOBAIS -->
+    <section style="padding: 40px; background-color: #f4f4f4; color: #222;">
+        <h2>Configurações globais do CSS</h2>
+
+        <p>
+            Quando estamos criando um projeto real, é comum utilizar
+            configurações globais para evitar comportamentos inesperados
+            dos elementos.
+        </p>
+
+        <div style="background-color: #FFFFFF; border: 1px solid #DDD; padding: 25px; border-radius: 10px;">
+            <code>
+                * {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;margin: 0;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;padding: 0;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;box-sizing: border-box;<br>
+                }
+            </code>
+        </div>
+
+        <!--
+        O seletor * seleciona todos os elementos da página.
+
+        margin: 0;
+        → remove margens padrão.
+
+        padding: 0;
+        → remove espaçamentos internos padrão.
+
+        box-sizing: border-box;
+        → facilita o controle do tamanho dos elementos.
+        -->
+    </section>
+
+    <!-- DEGRADÊ HARMÔNICO -->
+    <section style="padding: 40px; background-color: #222;">
+        <h2>Fazendo um degradê mais harmônico</h2>
+
+        <p>
+            Nem toda combinação de cores fica agradável.
+            Para criar um degradê mais harmônico, é interessante utilizar
+            cores que tenham alguma relação entre si.
+        </p>
+
+        <div style="background-image: linear-gradient(to right, #101A2B, #1E4D8C, #4A90E2); padding: 50px; border-radius: 10px; text-align: center;">
+            <strong>Exemplo de combinação harmônica</strong>
+        </div>
+
+        <!--
+        DICA:
+
+        Em vez de escolher duas cores completamente aleatórias,
+        podemos trabalhar com cores próximas ou com uma paleta
+        que tenha uma identidade visual definida.
+
+        Isso deixa o resultado mais profissional.
+        -->
+    </section>
+
+    <!-- DEGRADÊ FIXO -->
+    <section style="padding: 40px; background-color: #f4f4f4; color: #222;">
+        <h2>Deixando o fundo em degradê fixo na tela</h2>
+
+        <p>
+            Em alguns projetos podemos querer que o fundo permaneça
+            fixo enquanto o conteúdo da página se movimenta.
+        </p>
+
+        <div style="background-image: linear-gradient(#101A2B, #1976D2); background-attachment: fixed; padding: 50px; border-radius: 10px; text-align: center; color: white;">
+            <strong>background-attachment: fixed;</strong>
+        </div>
+
+        <!--
+        background-attachment: fixed;
+
+        Faz o fundo permanecer fixo durante a rolagem da página.
+
+        Esse efeito pode ser interessante em páginas com
+        fundos grandes ou efeitos visuais.
+        -->
+    </section>
+
+    <!-- ÂNGULO -->
+    <section style="padding: 40px; background-color: #222;">
+        <h2>Mudando o ângulo do degradê</h2>
+
+        <p>
+            Além de utilizar direções como "to right", também podemos
+            definir o ângulo do degradê utilizando graus.
+        </p>
+
+        <div style="background-image: linear-gradient(45deg, #101A2B, #1976D2); padding: 50px; border-radius: 10px; text-align: center;">
+            <strong>linear-gradient(45deg, #101A2B, #1976D2)</strong>
+        </div>
+
+        <!--
+        45deg significa que o degradê será aplicado em um ângulo
+        de 45 graus.
+
+        Podemos experimentar diferentes valores:
+
+        0deg
+        45deg
+        90deg
+        180deg
+        270deg
+
+        Alterar o ângulo muda completamente a direção
+        da transição das cores.
+        -->
+    </section>
+
+    <!-- RADIAL -->
+    <section style="padding: 40px; background-color: #f4f4f4; color: #222;">
+        <h2>Usando radial-gradient()</h2>
+
+        <p>
+            Diferente do linear-gradient(), o
+            <strong>radial-gradient()</strong> cria o degradê
+            partindo de um ponto central e se espalhando.
+        </p>
+
+        <div style="background-image: radial-gradient(circle, #4A90E2, #101A2B); padding: 60px; border-radius: 10px; text-align: center; color: white;">
+            <strong>radial-gradient(circle, #4A90E2, #101A2B)</strong>
+        </div>
+
+        <!--
+        LINEAR:
+
+        A transição segue uma direção.
+
+        RADIAL:
+
+        A transição parte de um ponto e se espalha
+        em formato circular ou elíptico.
+        -->
+    </section>
+
+    <!-- PERSONALIZANDO -->
+    <section style="padding: 40px; background-color: #222;">
+        <h2>Personalizando ainda mais o degradê</h2>
+
+        <p>
+            Podemos utilizar várias cores dentro de um mesmo degradê
+            e também definir posições específicas para essas cores.
+        </p>
+
+        <div style="background-image: linear-gradient(to right, #101A2B 0%, #1976D2 50%, #4A90E2 100%); padding: 50px; border-radius: 10px; text-align: center;">
+            <strong>
+                0% → 50% → 100%
+            </strong>
+        </div>
+
+        <p>
+            Também podemos adicionar mais de duas cores:
+        </p>
+
+        <div style="background-image: linear-gradient(to right, #101A2B, #1976D2, #00BCD4, #4CAF50); padding: 50px; border-radius: 10px; text-align: center;">
+            <strong>
+                Várias cores no mesmo degradê
+            </strong>
+        </div>
+
+        <!--
+        DICA:
+
+        Quanto mais cores adicionamos, mais importante fica
+        pensar na harmonia entre elas.
+
+        Um degradê tecnicamente correto pode continuar
+        ficando visualmente ruim se as cores não combinarem.
+        -->
+    </section>
+
+    <!-- TABELA -->
+    <section style="padding: 40px; background-color: #f4f4f4; color: #222;">
+        <h2>Resumo rápido</h2>
+
+        <table style="width: 100%; border-collapse: collapse; background-color: white;">
+            <tr style="background-color: #101A2B; color: white;">
+                <th style="padding: 15px; text-align: left;">Propriedade/Função</th>
+                <th style="padding: 15px; text-align: left;">Função</th>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">background-color</td>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">Define uma cor de fundo</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">background-image</td>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">Permite utilizar imagens e gradientes</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">linear-gradient()</td>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">Cria um degradê linear</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">radial-gradient()</td>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">Cria um degradê radial</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">background-attachment</td>
+                <td style="padding: 15px; border-bottom: 1px solid #DDD;">Controla o comportamento do fundo durante a rolagem</td>
+            </tr>
+            <tr>
+                <td style="padding: 15px;">deg</td>
+                <td style="padding: 15px;">Define o ângulo do degradê</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- CONCLUSÃO -->
+    <section style="padding: 40px; background-color: #101A2B;">
+        <h2>Conclusão</h2>
+
+        <p style="font-size: 17px; line-height: 1.7;">
+            Nesta aula aprendi que os degradês podem ser criados diretamente
+            pelo CSS, sem precisar transformar o efeito em uma imagem.
+        </p>
+
+        <p style="font-size: 17px; line-height: 1.7;">
+            O <strong>linear-gradient()</strong> permite criar transições
+            seguindo uma direção, enquanto o <strong>radial-gradient()</strong>
+            cria uma transição que parte de um ponto central.
+        </p>
+
+        <p style="font-size: 17px; line-height: 1.7;">
+            Também aprendi que posso controlar o ângulo, utilizar várias cores,
+            definir posições e até deixar o fundo fixo durante a rolagem.
+        </p>
+
+        <div style="background-color: #FFFFFF; color: #101A2B; padding: 20px; border-radius: 8px; margin-top: 25px;">
+            <strong>DICA PARA LEMBRAR:</strong>
+            <p style="margin-bottom: 0;">
+                linear-gradient() → degradê em uma direção.
+                <br>
+                radial-gradient() → degradê partindo de um ponto central.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
