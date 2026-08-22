@@ -39,14 +39,6 @@ Nesta categoria você encontrará conteúdos como:
   - Segurança
   - Wi-Fi
 
-- 📄 Pacote Office
-  - Word
-  - Excel
-  - PowerPoint
-  - Access
-  - Outlook
-  - OneNote
-
 ---
 
 ### 💻 Tecnologias
